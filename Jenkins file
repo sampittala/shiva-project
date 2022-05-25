@@ -1,0 +1,14 @@
+pipeline {
+    agent { label 'master' }
+    stages {
+        stage('build') {
+            steps {
+            stage('test'){
+            steps{
+            stage('deploy'){
+            steps{
+                echo "Hello World!"
+            }
+        }
+    }
+}
